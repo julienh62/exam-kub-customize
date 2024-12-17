@@ -1,0 +1,13 @@
+namespace: kustomize
+
+resources:
+  - deployment-fastapi.yaml
+  - deployment-pgadmin.yaml
+  - deployment-postgres.yaml
+  - service-fastapi.yaml
+  - service-pgadmin.yaml
+  - service-postgres.yaml
+  - ingress-fastapi.yaml
+  - hpa-fastapi.yaml
+  - pvc-postgres.yaml
+  - clusterissuer-letsencrypt.yaml  

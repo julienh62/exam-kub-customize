@@ -212,3 +212,8 @@ kustomize -h
 kustomize build <nomdudossier>
 kubectl apply -k <nom du dossier>
 kubectl delete -k <nomùdudossier>
+
+
+#créer un namespace si besoin 
+kubectl create namespace kustomize
+
